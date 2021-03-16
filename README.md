@@ -7,7 +7,7 @@ easysplit.py splits a HTML file into separate HTML files.
 
 * ```splitat``` is the variable for the string at which you want to split the HTML file
 
-* It then encloses the split block with <html><body>...</body></html> to make it a properly formatted HTML file
+* It then encloses the split block with ```<html><body>...</body></html>``` to make it a properly formatted HTML file
 
 convert_files_html2docx.sh is a bash script that requires [Pandoc](https://pandoc.org)
 
