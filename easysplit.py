@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 #Opens the file html_file_to_split.html
-soup = BeautifulSoup(open("test.html"))
+soup = BeautifulSoup(open("file_to_split.html"))
 
 #splits it at the search string <div class="content block"> in the HTML file
 #adds <div class="content block"> back in and saves that block as a single html file in pages/
